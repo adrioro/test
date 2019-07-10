@@ -41,6 +41,11 @@ padding-top: 9%;
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
   margin-top: 10px; /* Added */
+  padding: 1px !important;
+}
+
+.card-text{
+  font-size: 18px !important;
 }
 .footer {
   padding-top: 0px;
