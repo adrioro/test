@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+
+}
+body {
+ font-family: Helvetica Neue;
+ background-color: #1F2126;
+ color: #7a7979;
+}
+header{
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  margin-bottom: 5px;
+}
+.my_nav{
+  width:100%;
+  margin: 0 auto;
+}
+.cards {
+  margin-top: 30px;
+}
+.divider {
+  weight:100%;
+  height: 15px;
+}
+.subtitles { /*Card subtitles*/
+  letter-spacing: 1px;
+  color: #585858;
+  font-size: 18px;
+}
+.subtitles.card-title {
+  color: #585858;
+
+}
+.galleryTitle {
+padding-top: 9%;
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  margin-top: 10px; /* Added */
+}
+.footer {
+  padding-top: 0px;
+  width: 100%;
+  background-color: #090a0e;
+}
+.footerList {
+  padding: 0 0 3px 0;
+  width: 100%;
+}
+.moveUp, .emailImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sobre{
+  width:45px;
+  height: auto;
+}
+.moveUp{
+  margin-bottom: 17px;
+}
+.blink {
+  margin-top: 22px;
+  width:10%;
+}
+a:hover{ text-decoration:none;}
+
+.aboutRow{
+  margin-top: 66px;
+  padding: 3%;
+  background-color: white;
+}
+.main-image, .main-text{
+  margin: 0 auto;
+  padding: 2%;
+}
+.linkedinLogo{
+  width: 21px;
+  height: auto;
+  margin-bottom: 9px;
+  float:left;
+}
+.linkedinLogoDark{
+  width:45px;
+  height: auto;
+}
+.emailButton, .card-img-top{
+  border: 1px solid #9a9c9d;
+}
+.myImage{
+
+  border: 1px solid #1F2126;
+}
+
+.img-fluid{
+  width: 100%;
+  height: 100%;
+}
+.movie{
+  width:350px;
+  height: auto;
+}
+
+div p .textCaption{
+  font-style: italic;rgb(244, 244, 244)
+  font-size: 10px;
+}
+
+#navbarNavAltMarkup .navbar-nav a:hover{
+  color: rgb(217, 217, 217)!important;
+  background-color: #090a0e !important;
+}
+#navbarNavAltMarkup .navbar-nav a{
+  color: #949495;
+  font-weight:200;
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+}
+
+/*TOOLTIP customization*/
+.social {
+    background-color: #090a0e;
+    color:rgb(131, 131, 131);
+    font-weight:500;
+    letter-spacing: 1px;
+}
+
+/*Social Media*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+ }
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #1f7fc6;
+ }
+ #social-pt:hover {
+     color: #d34836;
+ }
+ #social-lk:hover {
+     color: #1f7fc6;
+ }
+ #social-em:hover{
+   color: #3B5998;
+ }
+
+.title{
+  letter-spacing:0.3em;
+  font-size: 33px;
+  font-weight:lighter;
+  color: #ff4c46;
+}
+.sub{
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffff;
+
+}
+.homeText{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 5px;
+}
+.MyName{
+  letter-spacing: 3px;
+}
+.subText{
+  font-style: oblique;
+  font-size: 20px;
+  margin-bottom: -9px;
+  letter-spacing: 1px;
+  color:#a3a3a6;
+}
+
+#Text{
+  font-size: 18px;
+  color:#67686c;
+}
+
+.borderEffect{
+  color: #1f2126;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.bottom{
+    background-color: #ff4c46;
+    margin-top: -17px;
+    color:white;
+    width:100%;
+}
+.salutation{
+  font-size: 9px;
+}
+.moveUpHome{
+  margin-bottom: -1px;
+}
+.AC{
+  margin-bottom: -37px;
+}
+.homeText{
+  margin-bottom: -9px;
+}
+.rowArrow{
+  margin-top: -3px;
+}
+.icon{
+  color:#afaeae;
+}
+.cover { /*Lazy load*/
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  color:#cfc2c2;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.LMBVertical, .LunchScheduler{
+  width:50%;
+  height: auto;
+}
+.blinkImage{
+  width:75px;
+  height:auto;
+}
+.blinkLogo{
+  width:60px;
+  height:auto;
+}
+.blinkLogoImage {
+  width:45px;
+}
+main{
+  background-image: url("images/back.png");
+}
+.backButton{
+  background-color: #090a0e;
+  color: #949495;
+}

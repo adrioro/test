@@ -1,0 +1,124 @@
+/* Smartphones - iPhone5 (portrait ) ----------- */
+@media only screen and (min-width : 320px){
+/* Styles */
+.aboutRow{
+  margin-top: 0;
+  padding-top: 0;
+}
+.socialDiv{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+}
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-width: 360px){
+/* Styles */
+
+}
+/* iPhone 6+, 7+, 8+ ----------- */
+@media only screen and (min-width: 414px) {
+/* Styles */
+
+.sub_one{
+  margin-top: 0px;
+
+}
+.sub_two{
+  margin-bottom: 0px;
+  padding-bottom: 45px;
+}
+.socialContainer{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 9px;
+}
+.subSocial{
+  padding-bottom: 17px;
+}
+
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-width : 768px) {
+/* Styles */
+.redNote{
+  display:none;
+}
+.title{
+  font-size: 39px;
+  margin-bottom: 0px;
+}
+.IAm{
+  margin-bottom: 15px;
+}
+.sub_two{
+  margin-bottom: 15px;
+}
+.basedInAtlanta{
+  margin-top: -40px;
+  margin-bottom: 55px;
+}
+.homeParagraph{
+  padding-bottom: 30px;
+}
+.sub{
+  font-size: 29px;
+}
+.IAm{
+  margin-top: 0px;
+}
+.socialDiv{
+  margin-bottom: 15px;
+  margin-top: 14px;
+}
+}
+/* iPad Pro (portrait and landscape) ----------- */
+@media only screen and (min-width : 1024px) {
+/* Styles */
+
+.title{
+  font-size: 55px;
+}
+.homeText, .myName{
+  font-size: 24px;
+}
+.IAm,.homeParagraph{
+  font-size: 24px;
+}
+.IAm{
+  margin-bottom: 28px;
+}
+.basedInAtlanta{
+  font-size: 24px;
+  margin-top: -25px;
+  margin-bottom: 85px;
+}
+.share{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.share.AC{
+  margin-bottom: -153px;
+}
+.homeParagraph{
+  padding: 30px;
+  padding-top: 6px;
+}
+.socialDiv{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.share{
+  margin-bottom: 7.5%;
+}
+.sub{
+  font-size: 45px;
+}
+.sub_two{
+  margin-bottom: 0px;
+}
+.subSocial{
+  margin-bottom: 9px;
+}
+
+
+}
