@@ -157,6 +157,7 @@ scrollToAndShow(".iconIllustration", "#IllustrationKinds", "#empty");
 
 
 /*FROM GALERY CARDS*/
+scrollToAndShow("#sanduskyCardImage", "#sanduskyPage", "#backFrontEnd");
 scrollToAndShow("#rfidCardImage", "#rfidDesignPage", "#backFrontEnd");
 scrollToAndShow("#spoonCardImage", "#spoonDesignPage", "#backFrontEnd");
 scrollToAndShow("#childrenCardIllust", "#childIllustration", "#backIllustrations");
@@ -167,6 +168,7 @@ scrollToAndShow("#beautifulCardUX", "#BeautifulPage", "#backUX");
 scrollToAndShow("#papaCardUX", "#PapaJohnsPage", "#backUX");
 
 /*UI FRONT END PROJECT PAGE BUTTONS*/
+scrollToAndShow("#sandusky", "#sanduskyPage", "#backFrontEnd");
 scrollToAndShow("#rfid", "#rfidDesignPage", "#backFrontEnd");
 scrollToAndShow("#restaurante", "#spoonDesignPage", "#backFrontEnd");
 
