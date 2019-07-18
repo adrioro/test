@@ -84,6 +84,8 @@ function scrollPageToSection(element, target) {
         }, "slow");
     });
 };
+
+scrollPageToSection(".Part2", "#sanduskyPagePart2");
 scrollPageToSection(".iconFrontend", "#FrontEnd");
 scrollPageToSection(".iconUX", "#UXDesign");
 scrollPageToSection(".iconAnimation", "#AnimationSamplesPage");
@@ -133,6 +135,7 @@ scrollToAndShow("#aboutMenu", "#about", "#empty");
 /*TOP NAV- DROP DOWN MENU BUTTONS*/
 
 /*UX SAMPLES BUTTONS*/
+scrollToAndShow("#goToSandusky", "#sanduskyPagePart1", "#backUX"); //FROM UX PAGE//
 scrollToAndShow("#goToLunch", "#LunchMoneyBuddyPage", "#backUX"); //FROM UX PAGE//
 scrollToAndShow("#goToReminder", "#ReminderXPage", "#backUX"); //FROM UX PAGE//
 scrollToAndShow("#goToPapaJohns", "#PapaJohnsPage", "#backUX"); //FROM UX PAGE//
@@ -157,7 +160,8 @@ scrollToAndShow(".iconIllustration", "#IllustrationKinds", "#empty");
 
 
 /*FROM GALERY CARDS*/
-scrollToAndShow("#sanduskyCardImage", "#sanduskyPage", "#backFrontEnd");
+scrollToAndShow("#sanduskyCardUX", "#sanduskyPagePart1", "#backUX");
+scrollToAndShow("#sanduskyCardImage", "#sanduskyPagePart2", "#backFrontEnd");
 scrollToAndShow("#rfidCardImage", "#rfidDesignPage", "#backFrontEnd");
 scrollToAndShow("#spoonCardImage", "#spoonDesignPage", "#backFrontEnd");
 scrollToAndShow("#childrenCardIllust", "#childIllustration", "#backIllustrations");
@@ -168,7 +172,7 @@ scrollToAndShow("#beautifulCardUX", "#BeautifulPage", "#backUX");
 scrollToAndShow("#papaCardUX", "#PapaJohnsPage", "#backUX");
 
 /*UI FRONT END PROJECT PAGE BUTTONS*/
-scrollToAndShow("#sandusky", "#sanduskyPage", "#backFrontEnd");
+scrollToAndShow("#sandusky", "#sanduskyPagePart2", "#backFrontEnd");
 scrollToAndShow("#rfid", "#rfidDesignPage", "#backFrontEnd");
 scrollToAndShow("#restaurante", "#spoonDesignPage", "#backFrontEnd");
 
