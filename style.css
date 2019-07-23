@@ -6,6 +6,7 @@ body {
  font-family: Helvetica Neue;
  background-color: #1F2126;
  color: #7a7979;
+ letter-spacing: 0.5px;
 }
 header{
   width: 100%;
