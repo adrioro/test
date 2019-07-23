@@ -178,6 +178,8 @@ scrollToAndShow("#restaurante", "#spoonDesignPage", "#backFrontEnd");
 
 /*Internal link to UX section*/
 scrollToAndShow(".UXLink", "#UXDesign", "#empty");
+scrollToAndShow(".PartILink", "#sanduskyPagePart1", "#backFrontEnd");
+scrollToAndShow(".PartIILink", "#sanduskyPagePart2", "#backUX");
 
 /*Email from the Envelope image*/
 $(".emailImage").click(function () {
