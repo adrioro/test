@@ -216,6 +216,11 @@ toolTipFunction("#SpoonPageTooltip");
 toolTipFunction("#photographyPageTooltip");
 toolTipFunction(".BehanceTooltip");
 toolTipFunction("#quizPageTooltip");
+toolTipFunction("#dribbbleTooltip");
+toolTipFunction("#dribbbleCardTooltip");
+toolTipFunction("#QuizCardTooltip");
+
+
 
 /* Social Media Sharing */
 function SocialSharing(socialButton, url) {
