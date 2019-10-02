@@ -4,7 +4,7 @@
 }
 body {
  font-family: Helvetica Neue;
- background-color: #1F2126;
+ background-color: white;
  color: #7a7979;
  letter-spacing: 0.5px;
 }
@@ -17,6 +17,10 @@ header{
 .my_nav{
   width:100%;
   margin: 0 auto;
+}
+.ACTitle{
+  text-shadow: 1px 1px 3px #acacac;
+  font-weight:250;
 }
 .cards {
   margin-top: 30px;
@@ -121,8 +125,8 @@ div p .textCaption{
   background-color: #090a0e !important;
 }
 #navbarNavAltMarkup .navbar-nav a{
-  color: #949495;
-  font-weight:200;
+  color: #bebebe;
+  font-weight:400;
 }
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,102,203);
@@ -181,13 +185,15 @@ div p .textCaption{
   letter-spacing: 3px;
 }
 .subText{
-  font-style: oblique;
   font-size: 20px;
   margin-bottom: -9px;
   letter-spacing: 1px;
-  color:#a3a3a6;
+  color:#3f3f3f;
 }
-
+.destacar{
+  color:#3f3f3f;
+  font-weight:500;
+}
 #Text{
   font-size: 18px;
   color:#67686c;
@@ -225,7 +231,7 @@ div p .textCaption{
   object-fit: cover;
   height: 100%;
   width: 100%;
-  color:#cfc2c2;
+  color:#bebebe;
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 18px;
@@ -246,8 +252,9 @@ div p .textCaption{
 .blinkLogoImage {
   width:45px;
 }
-main{
-  background-image: url("images/back.png");
+.iconsHome{
+  background-color: black;
+  border-radius: 9px;
 }
 .backButton{
   background-color: #090a0e;
@@ -256,4 +263,8 @@ main{
 .videoSpoonDesk{
   width: 450px;
   height: auto;
+}
+.emailMe, .share{
+  color:#bebebe;
+  font-size: 16px !important;
 }
